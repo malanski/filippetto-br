@@ -1,3 +1,14 @@
+*{
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #242424;
+  color: white;
+}
 .App {
   text-align: center;
 }
@@ -7,6 +18,28 @@
   pointer-events: none;
 }
 
+.tempo {
+  margin: 30px auto;
+}
+
+.lista {
+  text-align: left;
+  width: 90%;
+  margin: 10px 20px;
+  padding: 0 10px;
+  /* list-style-image: url('./assets/tomboloStamp.png') ; */
+}
+
+li{
+  margin: 10px 15px;  
+}
+
+.icones { color: red;}
+.imagem{
+  width: 90%;
+  margin: 10px auto;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +47,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
