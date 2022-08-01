@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/filippetto-br/static/css/main.87f090ee.css",
-    "main.js": "/filippetto-br/static/js/main.e4dce5fe.js",
+    "main.js": "/filippetto-br/static/js/main.e33c6954.js",
     "static/js/787.2f130150.chunk.js": "/filippetto-br/static/js/787.2f130150.chunk.js",
     "static/media/luizAgostinhonasc.jpeg": "/filippetto-br/static/media/luizAgostinhonasc.ba078db1fa4a1fa147ab.jpeg",
     "static/media/seminario.jpg": "/filippetto-br/static/media/seminario.c148633acc065ed78f84.jpg",
@@ -16,11 +16,11 @@
     "static/media/tomboloStamp.png": "/filippetto-br/static/media/tomboloStamp.deca6f1aa766e10684a7.png",
     "index.html": "/filippetto-br/index.html",
     "main.87f090ee.css.map": "/filippetto-br/static/css/main.87f090ee.css.map",
-    "main.e4dce5fe.js.map": "/filippetto-br/static/js/main.e4dce5fe.js.map",
+    "main.e33c6954.js.map": "/filippetto-br/static/js/main.e33c6954.js.map",
     "787.2f130150.chunk.js.map": "/filippetto-br/static/js/787.2f130150.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87f090ee.css",
-    "static/js/main.e4dce5fe.js"
+    "static/js/main.e33c6954.js"
   ]
 }
