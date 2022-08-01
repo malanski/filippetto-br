@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/filippetto-br/static/css/main.87f090ee.css",
-    "main.js": "/filippetto-br/static/js/main.237e6a6b.js",
+    "main.js": "/filippetto-br/static/js/main.33b8a04d.js",
     "static/js/787.2f130150.chunk.js": "/filippetto-br/static/js/787.2f130150.chunk.js",
     "static/media/luizAgostinhonasc.jpeg": "/filippetto-br/static/media/luizAgostinhonasc.ba078db1fa4a1fa147ab.jpeg",
     "static/media/seminario.jpg": "/filippetto-br/static/media/seminario.c148633acc065ed78f84.jpg",
-    "static/media/1912.jpg": "/filippetto-br/static/media/1912.5008fc7b3ff269b70993.jpg",
+    "static/media/1912.jpg": "/filippetto-br/static/media/1912.882d82ab6f3337aa2a9c.jpg",
     "static/media/AgostinhoFilippettoInvertletras.png": "/filippetto-br/static/media/AgostinhoFilippettoInvertletras.02ba9e2c1dffae61c705.png",
     "static/media/statoFamiglia.png": "/filippetto-br/static/media/statoFamiglia.146889015fca1faffdf7.png",
     "static/media/casamento3.jpg": "/filippetto-br/static/media/casamento3.ee8ebc5cc40bfbbbc2df.jpg",
+    "static/media/casamento00.png": "/filippetto-br/static/media/casamento00.45d4c5add45d751a576e.png",
     "static/media/therezaNascimento2.png": "/filippetto-br/static/media/therezaNascimento2.6d2ba99e2e5ac762125c.png",
     "static/media/therezaNascimento.png": "/filippetto-br/static/media/therezaNascimento.ca53dba2d489abe62dcb.png",
     "static/media/batizadoHeitor.png": "/filippetto-br/static/media/batizadoHeitor.71469097f8ac73fb6fd3.png",
     "static/media/tomboloStamp.png": "/filippetto-br/static/media/tomboloStamp.deca6f1aa766e10684a7.png",
     "index.html": "/filippetto-br/index.html",
     "main.87f090ee.css.map": "/filippetto-br/static/css/main.87f090ee.css.map",
-    "main.237e6a6b.js.map": "/filippetto-br/static/js/main.237e6a6b.js.map",
+    "main.33b8a04d.js.map": "/filippetto-br/static/js/main.33b8a04d.js.map",
     "787.2f130150.chunk.js.map": "/filippetto-br/static/js/787.2f130150.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87f090ee.css",
-    "static/js/main.237e6a6b.js"
+    "static/js/main.33b8a04d.js"
   ]
 }
