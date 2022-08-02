@@ -1,13 +1,18 @@
 import logo from './assets/tomboloStamp.png';
 import nascita from './assets/AgostinhoFilippettoInvertletras.png';
+import matrimonio0 from './assets/casamento00.png';
 import matrimonio from './assets/casamento3.jpg';
+import grafia0 from './assets/grafia00.jpg';
 import statoFamiglia from './assets/statoFamiglia.png';
+import angela0 from './assets/angela00.png';
 import therezaNascimento from './assets/therezaNascimento.png';
 import therezaNascimento2 from './assets/therezaNascimento2.png';
 import batizadoHeitor from './assets/batizadoHeitor.png';
 import luizAgostinhonasc from './assets/luizAgostinhonasc.jpeg';
+import luizAgostinhoBatisado from './assets/luizAgostinhoBatisado.png';
 import foto1912 from './assets/1912.jpg';
 import foto1908 from './assets/seminario.jpg';
+import regua from './assets/regua.png';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '@fortawesome/fontawesome-svg-core'
@@ -28,9 +33,13 @@ function App() {
 
         <div className='tempo'>
           <h2>Agostino Filippetto</h2>
-          <p>Nascimento: 07/08/1861</p>
-          <p>Pai: Luigi Filippetto</p>
-          <p>Mãe: Maria Liviero</p>
+          <div className='lista'>
+            <p>Nascimento: 07/08/1861</p>
+
+            <p>Natural de: tombolo, Padova, Veneto, Itália</p>
+            <p>Pai: Luigi Antonio Filippetto</p>
+            <p>Mãe: Maria Liviero</p>
+          </div>
         </div>
         
         <img src={nascita} className="imagem" alt="Nascimento" />
@@ -41,21 +50,36 @@ function App() {
         <hr></hr>
 
         <p className='tempo'>
-          Falecimento de seu Pai: 1874<br />
-          Ele tinha APROXIMADAMENTE 60 anos de idade.
+          Falecimento do pai Luigi Filippetto: 1874<br />
+          Observação: Luigi Filippetto tinha APROXIMADAMENTE 60 anos de idade quando faleceu.
         </p>
         <hr></hr>
 
-        <p className='tempo'>Casamento: 26/11/1886</p>
+        <div className='tempo'>
+          <p>Casamento: 27/11/1886</p>
+          <p>Noiva: Orsola Francesca Rizzardi</p>
+          <p>Observação: casal prestes a ter a primeira filha, Angela, um mês depois de casarem.</p>
+        </div>
 
+        <img src={matrimonio0} className="imagem" alt="Casamento" />
         <img src={matrimonio} className="imagem" alt="Casamento" />
+        
+        <div className='tempo'>
+          <p>Analisando a caligrafia das palavras identificadas</p>
+          <img src={grafia0} className="imagem" alt="Casamento" />
+        </div>
 
         <hr></hr>
-        <p className='tempo'>
-          1° Filho: Angela: 23/12/1886<br />
-          Tombolo, Padova
-        </p>
-
+        <div className='tempo'>
+          <p>
+            1° Filho: Angela: 23/12/1886<br />
+            Tombolo, Padova<br />
+          
+          </p>
+          <img src={angela0} className="imagem" alt="Casamento" />
+          <p>Observação: Ou ano de nascimento da filha Angela esta errado ou o grau de parentesco esta errado.</p>
+          
+        </div>
         <hr></hr>
         <p className='tempo'>2° Filho: Luigi: 1889<br />
           Tombolo, Padova
@@ -64,8 +88,8 @@ function App() {
         <hr></hr>
 
         <p className='tempo'>
-          Falecimento de sua Mãe: 1889<br />
-          Ela tinha APROXIMADAMENTE 62 anos de idade.
+          Falecimento de sua mãe, Maria Liviero: 1889<br />
+          Observação: Maria Liviero tinha APROXIMADAMENTE 62 anos de idade ao falecer.
         </p>
         <hr></hr>
 
@@ -75,21 +99,47 @@ function App() {
         </p>
 
         <p className='tempo'>
-          Ela ficou em Tombolo até completar 7 anos enquanto seus pais e 
+          Observação: Maria Luigia ficou em Tombolo até completar 7 anos, enquanto seus pais e 
           irmãos mais velhos imigravam para o Brasil.<br />
-          Foi para o Brasil em 20/03/1897.
+          Mais tarde ela foi para o Brasil, em 20/03/1897.
          
         </p>
-        
-        <hr></hr>
-        <p>Imigração para o Brasil 06/09/1891</p>
-        <img src={statoFamiglia} className="imagem" alt="Casamento" />
 
         <hr></hr>
 
-        <p className='tempo'><FontAwesomeIcon className='icones' icon={faDelicious} />
-              &ensp;&ensp;??? Compra do terreno no Seminário 1892 ???
+        <div className='tempo'>
+          
+          <p>Imigração para o Brasil 06/09/1891</p>
+          <img src={statoFamiglia} className="imagem" alt="Casamento" />
+          
+          <br />
+          
+        </div>
+        <hr></hr>
+
+        <p className='tempo'>
+          <FontAwesomeIcon className='icones' icon={faDelicious} />
+          &ensp;&ensp;??? Quando foi a Compra do terreno no Seminário 1892 ???&ensp;&ensp;
+          <FontAwesomeIcon className='icones' icon={faDelicious} />
         </p>
+
+        <div className='lista'>
+          <ul>
+            <li>
+              <FontAwesomeIcon className='icones' icon={faDelicious} />
+              &ensp;&ensp;Qual é o cartório-Igreja onde esta e escritura do Imóvel.
+              
+            </li>
+            <li>  
+              <FontAwesomeIcon className='icones' icon={faDelicious} />
+              &ensp;&ensp;Rua General Mario Tourinho n°200. 
+            </li>
+            <li>
+              <FontAwesomeIcon className='icones' icon={faDelicious} />
+              &ensp;&ensp;Avenida Ns. Aparecida n° ???.
+            </li>
+          </ul>
+        </div>
 
         <hr></hr>
 
@@ -106,11 +156,7 @@ function App() {
           <br/>
         </p>
 
-        <ul className='lista'>
-          <li>Agostinho Filipeto</li>
-          <li>Izabel Arizazi</li>
-        </ul>
-        
+
         <img src={therezaNascimento} className="imagem" alt="Nascimento" /> <br />
         <img src={therezaNascimento2} className="imagem" alt="Nascimento" />
         
@@ -118,14 +164,19 @@ function App() {
         <hr></hr>
 
         <p className='tempo'>6° Filho: Heitor: 02/02/1899</p>
+        <p className='tempo'>Batizado</p>
         <img src={batizadoHeitor} className="imagem" alt="Nascimento" />
         <hr></hr>
+        <div className='tempo'>
+  
+          <p>7° Filho: Luiz Agostinho: 19/12/1900</p>
+  
+          <img src={luizAgostinhonasc} className="imagem" alt="Nascimento" />
+          <img src={luizAgostinhoBatisado} className="imagem" alt="Nascimento" />
 
-        <p>7° Filho: Luiz Agostinho: 19/12/1900</p>
-
-        <img src={luizAgostinhonasc} className="imagem" alt="Nascimento" />
-        
-        
+  
+  
+        </div>
 
         <hr></hr>
         <p className='tempo'>8° Filho: Francisco Angelo: 23/12/1906</p>
@@ -138,7 +189,7 @@ function App() {
 
         <hr></hr>
 
-      <p className='tempo'><big>??</big> Óbito: 1923-1940 <big>??</big></p>
+      <p className='tempo'><big>??</big> Quando foi o Óbito de Agostino: 1920-1940 <big>??</big></p>
 
         <div className='lista'>
           <ul>
@@ -154,10 +205,19 @@ function App() {
             </li>
             <li>
               <FontAwesomeIcon className='icones' icon={faDelicious} />
-              &ensp;&ensp;Inventário dos béns.
+              &ensp;&ensp;Inventário dos béns de Agostino.
             </li>
           </ul>
         </div>
+
+        <hr></hr>
+        
+        <div className='tempo'>
+        <p>Linha Do Tempo</p>
+          <img src={regua} className="imagem" alt="Casamento" />
+        </div>
+
+        <hr></hr>
       </div>
     </div>
   );
