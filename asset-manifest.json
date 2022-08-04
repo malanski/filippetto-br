@@ -1,30 +1,33 @@
 {
   "files": {
-    "main.css": "/filippetto-br/static/css/main.87f090ee.css",
-    "main.js": "/filippetto-br/static/js/main.ccb86eaa.js",
+    "main.css": "/filippetto-br/static/css/main.44b1b0b6.css",
+    "main.js": "/filippetto-br/static/js/main.096d8b26.js",
     "static/js/787.2f130150.chunk.js": "/filippetto-br/static/js/787.2f130150.chunk.js",
     "static/media/luizAgostinhonasc.jpeg": "/filippetto-br/static/media/luizAgostinhonasc.ba078db1fa4a1fa147ab.jpeg",
     "static/media/seminario.jpg": "/filippetto-br/static/media/seminario.c148633acc065ed78f84.jpg",
-    "static/media/casamento3.jpg": "/filippetto-br/static/media/casamento3.e25ddf94cd6e27b02d29.jpg",
+    "static/media/casamento3.jpg": "/filippetto-br/static/media/casamento3.cfd38021ea0c9fbaa57d.jpg",
+    "static/media/obitoOrsola01.png": "/filippetto-br/static/media/obitoOrsola01.3eca77b3a381035e62bf.png",
     "static/media/1912.jpg": "/filippetto-br/static/media/1912.882d82ab6f3337aa2a9c.jpg",
+    "static/media/obitoOrsola00.png": "/filippetto-br/static/media/obitoOrsola00.1533ef0a21885aa32b21.png",
+    "static/media/AgostinhoFilippettoInvertletras.png": "/filippetto-br/static/media/AgostinhoFilippettoInvertletras.ef574d19f679c9247ca9.png",
     "static/media/casamento00.png": "/filippetto-br/static/media/casamento00.a6da4fd68094449df5ef.png",
+    "static/media/nascitaOrsola.png": "/filippetto-br/static/media/nascitaOrsola.27cfcb5829afe21be699.png",
     "static/media/statoFamiglia.png": "/filippetto-br/static/media/statoFamiglia.d48d05544c65ae9e0f3d.png",
     "static/media/therezaNascimento2.png": "/filippetto-br/static/media/therezaNascimento2.a8343b8d5c6cbc2a6cb1.png",
     "static/media/luizAgostinhoBatisado.png": "/filippetto-br/static/media/luizAgostinhoBatisado.335e9f9832ff3e6e0f4f.png",
     "static/media/grafia00.jpg": "/filippetto-br/static/media/grafia00.9898cb2d80827d45b59f.jpg",
     "static/media/regua.png": "/filippetto-br/static/media/regua.19cd57ff4ad6523aa057.png",
     "static/media/therezaNascimento.png": "/filippetto-br/static/media/therezaNascimento.3251022b4fb6041f90da.png",
-    "static/media/AgostinhoFilippettoInvertletras.png": "/filippetto-br/static/media/AgostinhoFilippettoInvertletras.8c2b95b1f42750ebcb43.png",
     "static/media/batizadoHeitor.png": "/filippetto-br/static/media/batizadoHeitor.14f132cc67af28ca7e22.png",
     "static/media/angela00.png": "/filippetto-br/static/media/angela00.4f2ddc7bedd7d8ea0c0a.png",
     "static/media/tomboloStamp.png": "/filippetto-br/static/media/tomboloStamp.deca6f1aa766e10684a7.png",
     "index.html": "/filippetto-br/index.html",
-    "main.87f090ee.css.map": "/filippetto-br/static/css/main.87f090ee.css.map",
-    "main.ccb86eaa.js.map": "/filippetto-br/static/js/main.ccb86eaa.js.map",
+    "main.44b1b0b6.css.map": "/filippetto-br/static/css/main.44b1b0b6.css.map",
+    "main.096d8b26.js.map": "/filippetto-br/static/js/main.096d8b26.js.map",
     "787.2f130150.chunk.js.map": "/filippetto-br/static/js/787.2f130150.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87f090ee.css",
-    "static/js/main.ccb86eaa.js"
+    "static/css/main.44b1b0b6.css",
+    "static/js/main.096d8b26.js"
   ]
 }
